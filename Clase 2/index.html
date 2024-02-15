@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Probamos</title>
+  </head>
+  <body>
+    <h1>Clase 2 de Javascript</h1>
+    <script>
+      function testVar() {
+        let x = 10
+        console.log(x) //10
+        if (true) {
+          console.log(x) //Error
+          let x = 20
+          console.log(x) //20
+        }
+        console.log(x) //10
+      }
+      function testVar2() {
+        let x = 10
+        console.log(x) //10
+        if (true) {
+          console.log(x) //10
+
+          console.log(x) //10
+        }
+        console.log(x) //10
+      }
+      testVar2()
+    </script>
+  </body>
+</html>
