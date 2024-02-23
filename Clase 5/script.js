@@ -15,7 +15,6 @@ function mouseArriba() {
   h1Clase5.style.color = txtColor
 
   var umbralContraste = 4.5
-
   if (calcularContraste(R, G, B, txtR, txtG, txtB) < umbralContraste) {
     mouseArriba()
   }
@@ -48,4 +47,18 @@ function calcularLuminosidad(R, G, B) {
 
 function getRandom(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+function updateH1() {
+  const inputText = document.getElementById('nuevoTitulo')
+  const h1Clase5 = document.getElementById('h1Clase5')
+
+  if (inputText.value == '') {
+    alert('Debe completar el nuevo título')
+    inputText.focus()
+    return
+  }
+  h1Clase5.innerHTML = inputText.value
+
+  inputText.value = ''
 }
