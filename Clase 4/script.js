@@ -83,6 +83,10 @@ let y = n2 - n3
 // != distinto valor
 // !== distinto valor y tipo
 
+// && AND
+// || OR
+// ! NOT
+
 // true o false
 
 let valorEvaluado = '10'
