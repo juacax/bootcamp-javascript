@@ -1,0 +1,25 @@
+body{
+    margin: 0
+}
+#divBusqueda{
+    padding: 20px;
+    background-color: #AAA;
+}
+#divBusqueda input{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+#divBusqueda button{
+    padding: 10px;
+    border: 1px solid rgb(27, 72, 156);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(27, 72, 156);
+    color: white;
+}
+#divBusqueda button:hover{
+    background-color: rgb(27, 72, 156);
+   
+    border: 1px solid white;
+}
